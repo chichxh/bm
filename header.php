@@ -11,7 +11,7 @@
 			            <a class="nav-link active" aria-current="page" href="index.php">Главная</a>
 			        </li>
 			        <li class="nav-item">
-			            <a class="nav-link active" href="form.php">Жалуйтесь здесь</a>
+			            <a class="nav-link active" href="form.php">Нужды</a>
 			        </li>
 			        <!-- <li class="nav-item dropdown">
 			            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,10 +27,10 @@
 			            <a class="nav-link active" href="about.php" tabindex="-1" aria-disabled="true">О проекте</a>
 			        </li>
 			    </ul>
-		        <form class="d-flex">
+		        <!-- <form class="d-flex">
 		       		<input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
 		        	<button class="btn btn-light" type="submit">Поиск</button>
-		      	</form>
+		      	</form> -->
 	    	</div>
 	  	</div>
 	</nav>
