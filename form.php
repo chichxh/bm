@@ -24,6 +24,13 @@ $result = mysqli_query($link, $sql);
 <head>
 	<title></title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<style type="text/css">
+		.blue {
+			background-color: #F2FAFE;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
 </head>
 <body>
 	<?php require 'header.php' ?>
