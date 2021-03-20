@@ -28,6 +28,9 @@
 
 	<div class="container-fluid mt-5">
 		<div class="row">
+			<div class="col-1">
+				<a href="hang4.php"><---</a>
+			</div>
 			<div class="col-10 mx-auto">
 				<img src="img/hangalassky1.png" width="100%" class="text-center">
 			</div>
@@ -48,7 +51,7 @@
 	</div>
 
 
-	<div class="footer mt-5">
+	<div class="footer">
 		<div class="container-fluid">
 			<p>Сайт разработан командой "Бутылка Коламбии"</p>
 		</div>

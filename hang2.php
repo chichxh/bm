@@ -28,21 +28,19 @@
 
 	<div class="container-fluid mt-5">
 		<div class="row">
-			<div class="col-10 mx-auto">
-				<img src="img/hangalassky1.png" width="100%" class="text-center">
-			</div>
 			<div class="col-1">
-				<a href="hang2.php">---></a>
+				<a href="hangalassky.php"><---</a>
+			</div>
+			<div class="col-10 mx-auto">
+				<img src="img/hangalassky2.png" width="100%" class="text-center">
 			</div>
 		</div>
 
 		<div class="row mt-5 text-center">
-			<h1 class="mb-4">Основные виды деятельности</h1>
-			<p>-Сельское, лесное хозяйство, охота, рыболовства и рыбоводство <br>
-				-Добыча полезных ископаемых <br>
-				-Транспортировка и хранение <br>
-				-Строительство <br>
-				-Туризм и спорт
+			<h1 class="mb-4">-Сельское, лесное хозяйство, охота, рыболовства и рыбоводство</h1>
+			<p>01: Растениеводство и животноводство, охота <br>
+				02: Лесоводство и лесозаготовки <br>
+				03: Рыболовство и рыбоводство<br>
 			</p>
 		</div>
 	</div>

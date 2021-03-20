@@ -560,7 +560,8 @@
     		<h1>Гайд по использованию карты</h1> 
     	</div>
     	<div class="row">
-    		<div class="col-6 left py-5" style="background-color: #FFF; height: 50%">
+    		<div class="col-6 left py-5" style="background-color: #FFF; width: 50%">
+    			<h1>Как вам поможет сайт</h1>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -568,13 +569,25 @@
     			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     		</div>
-    		<div class="col-6 right py-5" style="background-color: #FFB30F; height: 50%">
+    		<div class="col-6 right py-5" style="background-color: #FFB30F; width: 50%;">
+    			<h1></h1>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			consequat.</p>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-6 left py-5" style="background-color: #FFB30F; width: 50%">
+    			<h1>Обозначения</h1>
+    			<p>Плотность - <br>
+    				МСП - <br>
+    			</p>
+    		</div>
+    		<div class="col-6 right py-5" style="background-color: #BA5A31; width: 50%">
+    			<h1>Структура сайта</h1>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt</p>
     		</div>
     	</div>
     </div>
