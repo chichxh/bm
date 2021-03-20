@@ -27,6 +27,7 @@
 	<?php require 'header.php' ?>
 
 	<div class="container-fluid mt-5">
+		<h1 class="text-center mb-4">Хангаласский р.</h1>
 		<div class="row">
 			<div class="col-10 mx-auto">
 				<img src="img/hangalassky1.png" width="100%" class="text-center">
@@ -48,11 +49,7 @@
 	</div>
 
 
-	<div class="footer mt-5">
-		<div class="container-fluid">
-			<p>Сайт разработан командой "Бутылка Коламбии"</p>
-		</div>
-	</div>
+	<?php require 'footer.php' ?>
 
 
 

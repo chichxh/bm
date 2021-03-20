@@ -26,6 +26,14 @@
             width: 100%;
             height: 852px;
         }
+        a {
+			color: #000;
+			text-decoration: none;
+			transition-duration: 0.3s;
+		}
+		a:hover {
+			color: #c4c4c4;
+		}
 	</style>
 </head>
 <body>
@@ -560,7 +568,7 @@
     		<h1>Гайд по использованию карты</h1> 
     	</div>
     	<div class="row">
-    		<div class="col-6 left py-5" style="background-color: #FFF; width: 50%">
+    		<div class="col-5 left py-5" style="background-color: #FFF; width: 50%">
     			<h1>Как вам поможет сайт</h1>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -569,7 +577,7 @@
     			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     		</div>
-    		<div class="col-6 right py-5" style="background-color: #FFB30F; width: 50%;">
+    		<div class="col-5 right py-5" style="background-color: #FFB30F; width: 50%;">
     			<h1></h1>
     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -590,13 +598,21 @@
     			tempor incididunt</p>
     		</div>
     	</div>
+
+    	<div class="row mt-5">
+    		<h1>Список улусов</h1> <br>
+    		<p>пока будет только Хангаласский</p>
+    		<div>
+    			<ul>
+    				<li>
+    					<a href="hangalassky.php">Хангаласский р.</a>
+    				</li>
+    			</ul>
+    		</div>
+    	</div>
     </div>
 
-	<div class="footer mt-5">
-		<div class="container-fluid">
-			<p>Сайт разработан командой "Бутылка Коламбии"</p>
-		</div>
-	</div>
+	<?php require 'footer.php' ?>
 
 
 
