@@ -32,15 +32,19 @@ $result = mysqli_query($link, $sql);
 			background-color: #fff;
 		}
 		.blue {
-			background-color: #F2FAFE;
+			background-color: #EDE8AB;
 			padding: 10px;
 			margin-bottom: 10px;
+			border-radius: 5px;
 		}
 		.yellow {
 			background-color: #EDE8AB;
 		}
 		h1 {
 			font-size: 64px;
+		}
+		.form-control {
+			border: none;
 		}
 	</style>
 </head>
@@ -78,7 +82,7 @@ $result = mysqli_query($link, $sql);
 	</div>
 
 	<div class="container mt-5">
-		<h1 class="mb-4">Список жалоб</h1>
+		<h1 class="mb-4"><b>Список нужд</b></h1>
 		<?php while ($row = mysqli_fetch_array($result)): ?>
 			<div class="row blue">
 				<h6><?= $row['author']; ?> говорит: "<?= $row['comment']; ?>" (<?= $row['district']; ?>)</h6>
