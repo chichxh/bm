@@ -1,3 +1,24 @@
+<?php
+
+$database = 'bm';
+$user = 'root';
+$password = 'root';
+$host = 'localhost';
+
+$mysqli = new mysqli($host, $user, $password, $database);
+
+$link = mysqli_connect($host, $user, $password, $database);
+
+if ($link == false){
+	print("Ошибка: Невозможно подключиться к MySQL " . mysqli_connect_error());
+}
+
+$sql = 'SELECT * FROM hangalassky';
+$result = mysqli_query($link, $sql);
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +29,7 @@
 	<style type="text/css">
 		body {
 			font-family: 'Montserrat', Arial, sans-serif;
-			background-color: #EEEAF9;
+			background-color: #fff;
 		}
 		.map {
 			height: 800px;
@@ -39,12 +60,9 @@
 
 		<div class="row mt-5 text-center">
 			<h1 class="mb-4">Основные виды деятельности</h1>
-			<p>-Сельское, лесное хозяйство, охота, рыболовства и рыбоводство <br>
-				-Добыча полезных ископаемых <br>
-				-Транспортировка и хранение <br>
-				-Строительство <br>
-				-Туризм и спорт
-			</p>
+			<?php while ($row = mysqli_fetch_array($result)): ?>
+				<p><?= $row['about']; ?></p> <br>
+			<?php endwhile; ?>
 		</div>
 	</div>
 
