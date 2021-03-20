@@ -29,6 +29,7 @@ $result = mysqli_query($link, $sql);
 	<style type="text/css">
 		body {
 			font-family: 'Montserrat', Arial, sans-serif;
+			background-color: #EEEAF9;
 		}
 		.blue {
 			background-color: #F2FAFE;
@@ -53,6 +54,10 @@ $result = mysqli_query($link, $sql);
 					<label for="exampleFormControlTextarea1" class="form-label">Ваше имя/Название организации</label>
 					<input class="form-control" type="text" aria-label="default input example" name="author">
 				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Район</label>
+					<input class="form-control" type="text" aria-label="default input example" name="district">
+				</div>
 				<button name="send" type="submit" class="btn btn-light">Отправить</button>
 			</form>
 		</div>  		
@@ -62,7 +67,7 @@ $result = mysqli_query($link, $sql);
 		<h1 class="mb-4">Список жалоб</h1>
 		<?php while ($row = mysqli_fetch_array($result)): ?>
 			<div class="row blue">
-				<h6><?= $row['author']; ?> говорит: "<?= $row['comment']; ?>"</h6>
+				<h6><?= $row['author']; ?> говорит: "<?= $row['comment']; ?>" (<?= $row['district']; ?>)</h6>
 			</div>
 		<?php endwhile; ?>
 	</div>

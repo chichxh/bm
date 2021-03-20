@@ -15,7 +15,8 @@ if ($link == false){
 
 
 if (isset($_POST['send'])) {
-    $queryDost = "INSERT INTO comm (comment, author) VALUES ('". $_POST['comment'] ."', '". $_POST['author'] ."')";
+    $queryDost = "INSERT INTO comm (comment, author, district) VALUES ('". $_POST['comment'] ."', '". $_POST['author'] ."', 
+    '". $_POST['district'] ."')";
     $resDost = mysqli_query($link, $queryDost);
 }
 
