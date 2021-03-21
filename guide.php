@@ -12,7 +12,7 @@ if ($link == false){
 	print("Ошибка: Невозможно подключиться к MySQL " . mysqli_connect_error());
 }
 
-$sql = 'SELECT * FROM guideChecked';
+$sql = 'SELECT * FROM guidechecked';
 $result = mysqli_query($link, $sql);
 ?>
 
