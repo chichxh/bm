@@ -52,12 +52,12 @@ $result = mysqli_query($link, $sql);
 		a:hover {
 			color: #c4c4c4;
 		}
-        /*tr:not(#map) {
+        .table tr:not(#map) {
             border: 1px solid #ced4da;
         }
-        td:not(#map) {
+        .table td:not(#map) {
             border: 1px solid #ced4da;
-        }*/
+        }
 	</style>
 </head>
 <body>
@@ -520,10 +520,10 @@ $result = mysqli_query($link, $sql);
 			<?php endwhile; ?>
 		</div> -->
 
-        <!-- <div class="container-fluid">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <table>
+                    <table class="table">
                         <tr>
                             <td>Населенные пункты</td>
                             <td>Сельское хозяйство</td>
@@ -532,20 +532,6 @@ $result = mysqli_query($link, $sql);
                             <td>Мясомолочное производство</td>
                             <td>Строительство и стройматериалы</td>
                             <td>Лесозаготовки</td>
-                            <td>Добыча полезных ископаемых</td>
-                            <td>Производство пищевой продукции</td>
-                            <td>Производство непищевой продукции</td>
-                            <td>Ремонт и Утилизация</td>
-                            <td>Деятельность перевозчиков</td>
-                            <td>Жилье</td>
-                            <td>Общепит</td>
-                            <td>СМИ и Культура</td>
-                            <td>IT и Связь</td>
-                            <td>Услуги узконаправленных специалистов</td>
-                            <td>Туризм</td>
-                            <td>Здравоохранение и образование</td>
-                            <td>Бытовые услуги</td>
-                            <td>Производство хлебобулочных изделий</td>
                         </tr>
                         <tr>
                             <td>г. Покровск</td>
@@ -555,6 +541,37 @@ $result = mysqli_query($link, $sql);
                             <td>1</td>
                             <td>18</td>
                             <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>c. Мохсоголлох</td>
+                            <td>0</td>
+                            <td>38</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>29</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>с. Бестях</td>
+                            <td>0</td>
+                            <td>9</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Населенные пункты</td>
+                            <td>Добыча полезных ископаемых</td>
+                            <td>Производство пищевой продукции</td>
+                            <td>Производство непищевой продукции</td>
+                            <td>Ремонт и Утилизация</td>
+                            <td>Деятельность перевозчиков</td>
+                            <td>Жилье</td>
+                            <td>Общепит</td>
+                        </tr>
+                        <tr>
+                            <td>г.Покровск</td>
                             <td>1</td>
                             <td>2</td>
                             <td>17</td>
@@ -562,6 +579,39 @@ $result = mysqli_query($link, $sql);
                             <td>36</td>
                             <td>2</td>
                             <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>с.Мохсоголлох</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>10</td>
+                            <td>2</td>
+                            <td>32</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>с.Бестях</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Населенные пункты</td>
+                            <td>СМИ и Культура</td>
+                            <td>IT и Связь</td>
+                            <td>Услуги узконаправленных специалистов</td>
+                            <td>Туризм</td>
+                            <td>Здравоохранение и образование</td>
+                            <td>Бытовые услуги</td>
+                            <td>Производство хлебобулочных изделий</td>
+                        </tr>
+                        <tr>
+                            <td>г.Покровск</td>
                             <td>5</td>
                             <td>4</td>
                             <td>41</td>
@@ -570,10 +620,30 @@ $result = mysqli_query($link, $sql);
                             <td>11</td>
                             <td>21</td>
                         </tr>
+                        <tr>
+                            <td>с.Мохсоголлох</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>12</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>8</td>
+                            <td>32</td>
+                        </tr>
+                        <tr>
+                            <td>с.Бестях</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
                     </table>
                 </div>
             </div>
-        </div> -->
+        </div>
 	</div>
 
 
