@@ -48,18 +48,9 @@ $result = mysqli_query($link, $sql);
 
 	<div class="container-fluid mt-5 uop">
 		<div class="col-10 mx-auto p-5 blue">
-			<h1 class="mt-3"><b>Как выбрать выгодное расположение</b></h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h1 class="mt-3"><b>Как выбрать выгодное расположение (на примере Хангаласского района) для своего бизнеса</b></h1>
+			<p>Начнем с того, что через Хангаласский район проходит Федеральная дорога, открывающая возможности заработка. Летом можно стоять торговать у дороги всякой мелочевкой. Но на самом деле это место у дороги имеет огромный потенциал, доказанный различными популярными точками активного отдыха. Например, Зоопарк "Орто Дойду"(круглый год), "Техтюрпарк"(зимнее), "Октемпарк"(зимнее), Тир, шашлычные у зоопарка. У них много клиентов. На примере же пригородов: много людей летом, мало зимой/осенью/весной.
+			Значит, что выгоднее всего будет построить там бизнес исходя так же от нужд людей</p>
 			<p class="text-end">Автор: Менеджер</p>
 		</div>
 
