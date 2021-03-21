@@ -52,6 +52,12 @@ $result = mysqli_query($link, $sql);
 		a:hover {
 			color: #c4c4c4;
 		}
+        /*tr:not(#map) {
+            border: 1px solid #ced4da;
+        }
+        td:not(#map) {
+            border: 1px solid #ced4da;
+        }*/
 	</style>
 </head>
 <body>
@@ -414,6 +420,9 @@ $result = mysqli_query($link, $sql);
                         <th scope="row">Производство хлебобулочных изделий</th>\
                         <td>' + (feature.properties['Производство хлебобулочных изделий'] !== null ? autolinker.link(feature.properties['Производство хлебобулочных изделий'].toLocaleString()) : '') + '</td>\
                     </tr>\
+                    <tr>\
+                    <td><img href="img/diagramma.png" width="100%"></td>\
+                    </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -504,12 +513,67 @@ $result = mysqli_query($link, $sql);
 			</div>
 		</div>
 
-		<div class="row mt-5 text-center">
+		<!-- <div class="row mt-5 text-center">
 			<h1 class="mb-4">Основные виды деятельности</h1>
 			<?php while ($row = mysqli_fetch_array($result)): ?>
 				<p><?= $row['about']; ?></p> <br>
 			<?php endwhile; ?>
-		</div>
+		</div> -->
+
+        <!-- <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <table>
+                        <tr>
+                            <td>Населенные пункты</td>
+                            <td>Сельское хозяйство</td>
+                            <td>Розничная торговля</td>
+                            <td>Оптовая торговля</td>
+                            <td>Мясомолочное производство</td>
+                            <td>Строительство и стройматериалы</td>
+                            <td>Лесозаготовки</td>
+                            <td>Добыча полезных ископаемых</td>
+                            <td>Производство пищевой продукции</td>
+                            <td>Производство непищевой продукции</td>
+                            <td>Ремонт и Утилизация</td>
+                            <td>Деятельность перевозчиков</td>
+                            <td>Жилье</td>
+                            <td>Общепит</td>
+                            <td>СМИ и Культура</td>
+                            <td>IT и Связь</td>
+                            <td>Услуги узконаправленных специалистов</td>
+                            <td>Туризм</td>
+                            <td>Здравоохранение и образование</td>
+                            <td>Бытовые услуги</td>
+                            <td>Производство хлебобулочных изделий</td>
+                        </tr>
+                        <tr>
+                            <td>г. Покровск</td>
+                            <td>6</td>
+                            <td>69</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>18</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>17</td>
+                            <td>3</td>
+                            <td>36</td>
+                            <td>2</td>
+                            <td>14</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>41</td>
+                            <td>3</td>
+                            <td>12</td>
+                            <td>11</td>
+                            <td>21</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div> -->
 	</div>
 
 
