@@ -24,10 +24,13 @@
 			            </ul>
 			        </li> -->
 			        <li class="nav-item">
-			            <a class="nav-link active" href="about.php" tabindex="-1" aria-disabled="true">О проекте</a>
+			            <a class="nav-link active" href="guide.php">Гайды</a>
 			        </li>
 			        <li class="nav-item">
-			            <a class="nav-link active" href="guide.php">Гайды</a>
+			            <a class="nav-link active" href="nelegb.php">Борьба с нелегальным бизнеом</a>
+			        </li>
+			        <li class="nav-item">
+			            <a class="nav-link active" href="about.php" tabindex="-1" aria-disabled="true">О проекте</a>
 			        </li>
 			    </ul>
 		        <!-- <form class="d-flex">
